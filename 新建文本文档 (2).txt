@@ -1,0 +1,23 @@
+string
+number
+boolean
+undefined
+null
+parseint
+parsefloat
+dynamic
+document object model
+hypertext markup language
+document.getElementsByTagName
+parentnode children
+previousElementSibing
+nextElementSibing
+innerHTML
+innertext
+getAttribute
+setAttribute
+return
+var ss=function(){} 直接量方式创建
+function ss(){} 声明函数
+
+bootstrap
