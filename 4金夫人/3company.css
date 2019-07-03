@@ -1,0 +1,159 @@
+body,html,h1,h2,h3,h4,h5,h6,p,ul,input,form{
+	margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 300;
+}
+a{text-decoration: none;color: black;}
+img{display: block;}
+li{list-style: none;float: left;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfloat:after{
+	content:"";
+	clear:both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;}
+.clearfloat{zoom:1;}
+nav,.company{margin: 0 auto;}
+html{
+	font-family: "微软雅黑";
+}
+/*导航*/
+nav{
+	width: 1200px;
+}
+nav .fr div{
+	text-align: right;
+}
+nav .fr form{
+	margin-top: 16px;
+	font-size: 12px;
+	word-spacing: 2px;
+	border-radius: 13px;
+	border: 1px solid #333333;
+	display: inline-block;
+	
+}
+nav .fr form input{
+	padding: 0;
+	outline: none;
+	width: 196px;
+	height: 26px;
+	margin-left:8px;
+	border: 0;
+	vertical-align:middle
+}
+nav .fr .sub{
+		width: 26px;
+		background: url(images/shousuo_05.png) no-repeat left center;
+}
+nav .fr span{
+	display: inline-block;
+	margin-left: 36px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+nav .fr ul{
+	height: 74px;
+	display: flex;
+	align-items: center;
+}
+nav .fr ul li{
+	margin-left: 58px;
+}
+nav .fr ul li:hover {
+	animation: bounceOut 1s;
+}
+nav .fr ul li a{
+	display: block;
+	line-height: 28px;
+}
+nav .fr ul li:hover a{
+	border-bottom: 2px solid #830a13;
+} 
+/*banner*/
+.banner img{
+	width: 100%;
+}
+.company{
+	width: 1200px;
+}
+.company h5{
+	margin-top: 20px;
+	text-align: right;
+	width: 100%;
+	border-bottom:1px solid #666666;
+	font-size: 14px;
+	line-height: 34px;
+}
+.company h5 b{
+	color: #850913;
+}
+.company .company-left{
+	width: 130px;
+	
+}
+.company .company-left h3{
+	font-size: 22px;
+	line-height: 35px;
+	width: 125px;
+	border-bottom: 1px solid #666666;
+	position: relative;
+	text-indent: 20px;
+}
+.company .company-left h3 i{
+	display: inline-block;
+	height: 19px;
+	width: 1px;
+	background: #666666;
+	margin-left: 8px;
+	position: absolute;
+	right: 0;bottom: 0;
+		
+} 
+.company .company-left h3 b{
+	height: 19px;
+	width: 1px;
+	background: #666666;
+	position: absolute;
+	top: 0;left: 0;	
+}
+.company .company-left h3:nth-of-type(2){
+	font-size: 18px;
+	color: #bc8e90;
+	border-bottom: 0;
+	border-left: 1px solid #666666;
+	text-indent: 5px;
+}
+.company-right{
+	margin-left: 72px;
+	margin-top: 30px;
+	
+}
+
+.company-right h2{
+	font-size: 15px;
+	line-height: 32px;
+	border-bottom: 1px solid #bc8e90;
+	width: 225px;
+}
+.company-right p{
+	font-size: 14px;
+	line-height: 22px;
+	color: #c1c1c1;
+	margin: 10px 0;
+	width: 980px;
+}
+.company-right img{
+	display:inline-block;
+}
+/*结尾*/
+footer{
+	background: #756f6f;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 90px;
+}

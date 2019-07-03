@@ -1,0 +1,185 @@
+body,html,h1,h2,h3,h4,h5,h6,p,ul,input,form{
+	margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 300;
+}
+a{text-decoration: none;color: black;}
+img{display: block;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfloat:after{
+	content:"";
+	clear:both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;}
+.clearfloat{zoom:1;}
+nav,section{margin: 0 auto;}
+html{
+	font-family: "微软雅黑";
+}
+/*导航*/
+nav{
+	width: 1200px;
+}
+nav .fr div{
+	text-align: right;
+}
+nav .fr form{
+	margin-top: 16px;
+	font-size: 12px;
+	word-spacing: 2px;
+	border-radius: 13px;
+	border: 1px solid #333333;
+	display: inline-block;
+	
+}
+nav .fr form input{
+	padding: 0;
+	outline: none;
+	width: 196px;
+	height: 26px;
+	margin-left:8px;
+	border: 0;
+	vertical-align:middle
+}
+nav .fr .sub{
+		width: 26px;
+		background: url(images/shousuo_05.png) no-repeat left center;
+}
+nav .fr span{
+	display: inline-block;
+	margin-left: 36px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+nav .fr ul{
+	height: 74px;
+	display: flex;
+	align-items: center;
+}
+nav .fr ul li{
+	margin-left: 58px;
+}
+nav .fr ul li:hover {
+	animation: bounceOut 1s;
+}
+nav .fr ul li a{
+	display: block;
+	line-height: 28px;
+}
+nav .fr ul li:hover a{
+	border-bottom: 2px solid #830a13;
+} 
+/*banner*/
+.banner img{
+	width: 100%;
+}
+section{
+	width: 1200px;
+}
+h3{
+	font-size: 22px;
+	line-height: 35px;
+	width: 125px;
+	border-bottom: 1px solid #666666;
+	position: relative;
+	text-indent: 20px;
+}
+h3 i{
+	display: inline-block;
+	height: 19px;
+	width: 1px;
+	background: #666666;
+	margin-left: 8px;
+	position: absolute;
+	right: 0;bottom: 0;
+		
+} 
+h3 b{
+	height: 19px;
+	width: 1px;
+	background: #666666;
+	position: absolute;
+	top: 0;left: 0;
+	
+}
+ h5{
+	margin-top: 20px;
+	text-align: right;
+	width: 100%;
+	border-bottom:1px solid #666666;
+	font-size: 14px;
+	line-height: 34px;
+}
+ h5 b{
+	color: #850913;
+}
+.left {
+	width: 162px;
+}
+.left li{
+	list-style:none;
+	border-left:1px solid #666666 ;
+	text-align: center;
+	width: 131px;
+	line-height: 30px;
+	font-size: 14px;
+}
+li span{
+	padding-right: 20px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.open{ background: url("images/jia1.png") no-repeat 111px 15px; 
+color: firebrick;
+}
+.closed{ background: url("images/jia2.png") no-repeat 111px 15px; }
+
+.right{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.right h4{
+	font-size: 18px;
+	line-height: 35px;
+	width: 225px;
+	border-bottom: 1px solid firebrick;
+}
+.right h4 span{
+	font-size: 10px;
+}
+
+.right p{
+	font-size: 16px;
+	line-height: 22px;
+	color: #747474;
+	width: 1000px;
+	margin:16px 0 55px 0;
+}
+.right-pic div{
+	width: 320px;
+}
+.right-pic div img{
+	width: 100%;
+	}
+.right-pic{
+	display: flex;
+	justify-content: space-between;
+}
+.right-pic p{
+	text-align:center ;
+	line-height: 70px;
+	font-size: 18px;
+	width: 320px;
+}
+/*结尾*/
+footer{
+	background: #756f6f;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 90px;
+}
